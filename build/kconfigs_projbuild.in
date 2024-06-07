@@ -1,0 +1,8 @@
+source "C:/Users/jungle/esp/v5.1/esp-idf/components/bootloader/Kconfig.projbuild"
+source "C:/Users/jungle/esp/v5.1/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "C:/Users/jungle/esp/v5.1/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "C:/Users/jungle/esp/v5.1/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/jungle/esp/v5.1/esp-idf/components/partition_table/Kconfig.projbuild"
+source "C:/Users/jungle/esp/v5.1/esp-idf/examples/common_components/protocol_examples_common/Kconfig.projbuild"
+source "G:/idf_demo/sample_project_weather_led_strip_IOT/components/app_wifi/Kconfig.projbuild"
+source "G:/idf_demo/sample_project_weather_led_strip_IOT/managed_components/espressif__esp_rainmaker/Kconfig.projbuild"

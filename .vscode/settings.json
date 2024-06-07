@@ -1,0 +1,13 @@
+{
+    "idf.portWin": "COM13",
+    "idf.adapterTargetName": "esp32s3",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32s3.cfg"
+    ],
+    "idf.flashType": "UART",
+    "files.associations": {
+        "esp_rmaker_core.h": "c",
+        "protocol_examples_common.h": "c"
+    }
+}

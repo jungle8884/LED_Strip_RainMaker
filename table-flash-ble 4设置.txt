@@ -1,0 +1,5 @@
+SDK Configuration editor 设置如下：
+table 设置 partitions
+flash 设置 4M
+ble 设置 ble 4
+wifi设置成：Get ssid and password from stdin

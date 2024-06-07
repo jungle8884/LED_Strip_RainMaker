@@ -1,0 +1,26 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "C:/Users/jungle/esp/v5.1/esp-idf/components/bootloader/subproject",
+    "build_dir":          "G:/idf_demo/sample_project_weather_led_strip_IOT/build/bootloader",
+    "config_file":        "G:/idf_demo/sample_project_weather_led_strip_IOT/sdkconfig",
+    "config_defaults":    "",
+    "bootloader_elf":     "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "build_type":         "flash_app",
+    "git_revision":       "v5.1",
+    "target":             "esp32s3",
+    "rev":                "",
+    "min_rev":            "0",
+    "max_rev":            "99",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32s3-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "C:/Users/jungle/esp/v5.1/esp-idf/components/efuse/Kconfig;C:/Users/jungle/esp/v5.1/esp-idf/components/esp_common/Kconfig;C:/Users/jungle/esp/v5.1/esp-idf/components/esp_hw_support/Kconfig;C:/Users/jungle/esp/v5.1/esp-idf/components/esp_system/Kconfig;C:/Users/jungle/esp/v5.1/esp-idf/components/freertos/Kconfig;C:/Users/jungle/esp/v5.1/esp-idf/components/hal/Kconfig;C:/Users/jungle/esp/v5.1/esp-idf/components/log/Kconfig;C:/Users/jungle/esp/v5.1/esp-idf/components/newlib/Kconfig;C:/Users/jungle/esp/v5.1/esp-idf/components/soc/Kconfig;C:/Users/jungle/esp/v5.1/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Users/jungle/esp/v5.1/esp-idf/components/bootloader/Kconfig.projbuild;C:/Users/jungle/esp/v5.1/esp-idf/components/esp_app_format/Kconfig.projbuild;C:/Users/jungle/esp/v5.1/esp-idf/components/esp_rom/Kconfig.projbuild;C:/Users/jungle/esp/v5.1/esp-idf/components/esptool_py/Kconfig.projbuild;C:/Users/jungle/esp/v5.1/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Users/jungle/esp/v5.1/esp-idf/components/bootloader", "C:/Users/jungle/esp/v5.1/esp-idf/components/bootloader_support", "C:/Users/jungle/esp/v5.1/esp-idf/components/efuse", "C:/Users/jungle/esp/v5.1/esp-idf/components/esp_app_format", "C:/Users/jungle/esp/v5.1/esp-idf/components/esp_common", "C:/Users/jungle/esp/v5.1/esp-idf/components/esp_hw_support", "C:/Users/jungle/esp/v5.1/esp-idf/components/esp_rom", "C:/Users/jungle/esp/v5.1/esp-idf/components/esp_system", "C:/Users/jungle/esp/v5.1/esp-idf/components/esptool_py", "C:/Users/jungle/esp/v5.1/esp-idf/components/freertos", "C:/Users/jungle/esp/v5.1/esp-idf/components/hal", "C:/Users/jungle/esp/v5.1/esp-idf/components/log", "C:/Users/jungle/esp/v5.1/esp-idf/components/bootloader/subproject/main", "C:/Users/jungle/esp/v5.1/esp-idf/components/bootloader/subproject/components/micro-ecc", "C:/Users/jungle/esp/v5.1/esp-idf/components/newlib", "C:/Users/jungle/esp/v5.1/esp-idf/components/partition_table", "C:/Users/jungle/esp/v5.1/esp-idf/components/soc", "C:/Users/jungle/esp/v5.1/esp-idf/components/spi_flash", "C:/Users/jungle/esp/v5.1/esp-idf/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}
