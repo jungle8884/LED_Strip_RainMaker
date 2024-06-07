@@ -212,7 +212,8 @@ static void http_rest_with_url(void)
     ESP_LOGI(TAG, "HTTP GET from URL");
     char local_response_buffer[MAX_HTTP_OUTPUT_BUFFER] = {0};
     esp_http_client_config_t config = {
-        .url = "http://api.map.baidu.com/weather/v1/?district_id=440300&data_type=all&ak=0UpzKOwNGV7iTTkFtRsDmIKWgBxIA8hf",
+        // -------------------------------------------------------------------------------需要修改！！！--------------------------------- 
+        .url = "http://api.map.baidu.com/weather/v1/?district_id=地区代码见weather_distric_id_csv&data_type=all&ak=百度地图开发者密钥",
         .event_handler = _http_event_handler, // 事件处理函数
         .user_data = local_response_buffer, // 用于保存 HTTP 响应数据      
         .disable_auto_redirect = true, // 禁用自动重定向
